@@ -14,15 +14,15 @@ function showImage() {
     img.alt = hiddenImage.alt;
 
     const button = document.createElement('button');
-   //button.innerHTML = 'Feliz<br>la torta';
+    button.innerHTML = 'Presiona<br>la torta';
 
     // button.disabled = true; // Desactivado inicialmente
 
     // Función para redirigir al hacer clic en la imagen
-    /*img.onclick = function () {
+    img.onclick = function () {
       window.location.href = 'cake.html'; // Redirige a la página cuando se hace clic en la imagen
     };
-*/
+
     button.onclick = function () {
       if (!button.disabled) {
         window.location.href = 'cake.html'; // Redirige a la página cuando el botón está habilitado
@@ -103,7 +103,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['FELIZ 21','KIARA!', config.name],
+      strings: ['FELIZ CUMPLE','KIARA!', config.name],
       charSize: 30,
       charSpacing: 28,
       lineHeight: 40,

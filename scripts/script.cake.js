@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let audioContext;
   let analyser;
   let microphone;
-  let audio = new Audio('Rosa Linn - Snap .mp3');
+  let audio = new Audio('chapis.mp3');
 
   // Función para actualizar la cuenta de velas
   function updateCandleCount() {
